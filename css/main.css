@@ -1,0 +1,101 @@
+/* Inserta tu CSS aqui */
+
+
+
+
+.menu ul,a  {
+
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.menu li{
+     display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+/* ------------------------------------------------------------------------backgrpound */
+
+.fondo{  
+    background-image: url(../images/uno.jpg);
+    width: 100%;
+    height: 700px; 
+    background-size: cover;
+    }
+
+.logo {
+    text-align: center;
+    padding: 15%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+  
+    
+}
+
+.fondo img {
+    height: 100px;
+    width: 100px;
+}
+
+.fondo h1, h2 {
+      border: 1px solid white;
+}
+
+/* ------------------------------------------------------------------------ aboutme*/
+
+
+.fondodos{
+    background-image: url(../images/geometry_@2X.png);
+    
+}
+
+.aboutme{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+
+
+.favorites{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.favorites img{
+    border-radius: 200%;
+    border:4px solid peachpuff;
+    
+}
+
+/* ------------------------------------------------------------------------ footer*/
+footer{
+    background-image: url(../images/swirl_pattern.png);
+    width: 100%;
+    height: 400px;
+
+}
+
+.redes ul{
+    list-style: none;
+    }
+
+.redes{
+    text-align: center;
+    padding: 100px;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.redes h3{
+    font-family: 'Oswald', sans-serif;
+}
