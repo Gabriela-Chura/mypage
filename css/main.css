@@ -22,12 +22,37 @@
 /* ------------------------------------------------------------------------backgrpound */
 
 .fondo{  
-    background-image: url(../images/uno.jpg);
+    
     width: 100%;
     height: 700px; 
-    background-size: cover;
+    background-size: 100% 100%;
+    
+    animation: fondo 5s infinite;
+    animation-direction: alternate;
     
     }
+
+@keyframes fondo{
+    0%, 30%{
+        background-image: url(../images/uno.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1;
+    }
+    35%, 65%{
+        background-image: url(../images/dos.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.1;
+    }
+    70%,100%{
+        opacity: 1;
+        background-image: url(../images/tres.jpg);
+    }
+}
+
 
 .logo {
     text-align: center;
@@ -80,6 +105,7 @@ footer{
     background-image: url(../images/swirl_pattern.png);
     width: 100%;
     height: 400px;
+    margin: auto;
 
 }
 
@@ -89,7 +115,7 @@ footer{
 
 .redes{
     text-align: center;
-    padding: 100px;
+    
 }
 
 .redes ul li{
